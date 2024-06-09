@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://edinibranovic.github.io/iot-frontend-projekt/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy" : "gh-pages -d dist -f"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
