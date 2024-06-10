@@ -9,7 +9,6 @@ export default defineConfig({
         target: 'https://iot-backend-latest.onrender.com/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
-        base: "/iot-frontend-projekt/"
       },
     },
   },
